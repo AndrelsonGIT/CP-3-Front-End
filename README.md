@@ -31,9 +31,9 @@ Após as dependências terem sido instaladas, navegue até a pasta "json-server"
 
  3. **Iniciando o Servidor de Desenvolvimento:**
 
-Retorne para a pasta raiz do projeto digitando:` 
+Retorne para a pasta raiz do projeto digitando: `cd ..` 
 
-cd ..
+
 
 Em seguida, execute o seguinte comando para iniciar o servidor de desenvolvimento:  `npm run dev` 
 
