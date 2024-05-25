@@ -27,14 +27,14 @@ export default function Home() {
   }
 
   return (
-      <main className="flex min-h-screen flex-col items-center justify-center gap-20 p-24">
+      <main className="flex py-10 justify-center flex-wrap flex-shrink min-h-screen items-center 2xl:justify-start ">
         <Header/>
         {!posts ? (
             <div className="mx-auto">
               <h2>Carregando os dados</h2>
             </div>
         ) : posts.map((post)=>(
-            <div key={post.id}>
+            <div className="" key={post.id}>
               <HomePost objectPost={post}/>
             </div>
         ))}
