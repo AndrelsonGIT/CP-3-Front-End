@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Instruções para Executar o Projeto
 
-## Getting Started
+Este guia fornece instruções passo a passo para configurar e executar o projeto.
 
-First, run the development server:
+## Pré-requisitos
 
-```bash
+Antes de iniciar, verifique se você tem o Node.js instalado em seu sistema. Se não tiver, você pode baixá-lo e instalá-lo [aqui](https://nodejs.org/).
+
+## Como Rodar
+
+1. **Instalação de Dependências:**
+
+   Dentro da pasta do projeto, execute o seguinte comando no terminal para instalar as dependências:
+
+npm install
+
+javascript
+
+
+2. **Iniciando o Servidor JSON:**
+
+Após as dependências terem sido instaladas, navegue até a pasta "json-server" usando o comando:
+
+cd json-server
+
+css
+
+
+Em seguida, inicie o servidor JSON digitando:
+
+npx json-server db.json
+
+markdown
+
+
+3. **Iniciando o Servidor de Desenvolvimento:**
+
+Retorne para a pasta raiz do projeto digitando:
+
+cd ..
+
+css
+
+
+Em seguida, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+csharp
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Acessando a Aplicação:**
 
-## Learn More
+Após iniciar o servidor, abra o navegador e acesse o seguinte link:
+[http://localhost:8585/](http://localhost:8585/)
 
-To learn more about Next.js, take a look at the following resources:
+## Observações
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Certifique-se de seguir todas as etapas conforme indicado. Se encontrar algum problema durante a execução do projeto, verifique se todas as dependências estão corretamente instaladas e se os comandos foram executados conforme descrito neste guia.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Divirta-se explorando o projeto!
